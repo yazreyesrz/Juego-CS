@@ -1,0 +1,31 @@
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 420px;
+  margin: 0 auto;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.btn-reiniciar {
+  position: relative;
+  top: 550px;
+  left: 640px;
+  font-family: sans-serif;
+}
+
+.game-info {
+  position: relative;
+  top: 100px;
+  left: 1000px;
+  font-weight: 40px;
+  background-color: #f9e79f;
+  border-radius: 10px;
+  width: 20%;
+  height: 500%;
+  font-family: sans-serif;
+  background-image: url(./back.jpg);
+  background-position: center;
+  padding: 50px 55px;
+  font-size: 20px;
+}
